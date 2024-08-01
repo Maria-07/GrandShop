@@ -14,14 +14,22 @@ body {
 
 .hero-bg {
   min-height: 100%;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(0, 47, 128, 0.57),
-      rgba(0, 47, 128, 0.57)
-    ),
+      rgba(0, 47, 128, 0.57)),
     url("../assets/img/hero-bg.png");
   background-size: cover;
   height: 100vh;
+}
+
+.info-bg {
+  min-height: 100%;
+  background: linear-gradient(0deg,
+      rgba(0, 47, 128, 0.92),
+      rgba(0, 47, 128, 0.92)),
+    url("../assets/img/infoSection.png");
+  background-size: cover;
+  height: 80vh;
 }
 
 .input-border {
@@ -74,25 +82,23 @@ body {
   letter-spacing: 0.5px;
 }
 
-.bk-input-button {
-  background-color: #438e93;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
+.gs-input-button {
+  border: 1px solid #003080;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.3px;
-  color: #fff;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 4px;
-  padding-bottom: 3px;
-  border-width: 0px;
+  color: #003080;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 4px;
   box-shadow: 1px 1px 4px 0px #000000;
   transition: ease-in-out 0.3s;
 }
 
-.bk-modal-red-button {
+.gs-modal-red-button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -110,7 +116,7 @@ body {
   transition: ease-in-out 0.3s;
 }
 
-.bk-input-red-button {
+.gs-input-red-button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -127,14 +133,14 @@ body {
   transition: ease-in-out 0.3s;
 }
 
-.bk-input-red-button:hover {
+.gs-input-red-button:hover {
   background-color: #b00808d8;
   color: #fff;
 }
 
-.bk-input-button:hover {
+.gs-input-button:hover {
   color: #fff;
-  background-color: #1b6273;
+  background-color: #003080;
   box-shadow: 1px 1px 4px 0px #000000;
 }
 
@@ -204,8 +210,8 @@ body {
   background-position: -100%;
   display: inline-block;
   position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -wegsit-background-clip: text;
+  -wegsit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
 
@@ -271,12 +277,12 @@ select option:hover {
 
 /* scrolling  */
 
-::-webkit-scrollbar {
+::-wegsit-scrollbar {
   width: 7px;
   height: 7px;
 }
 
-::-webkit-scrollbar-track {
+::-wegsit-scrollbar-track {
   /* background-color: #fff; */
   opacity: 0.1;
   border-top-left-radius: 20px;
@@ -285,7 +291,7 @@ select option:hover {
   border-bottom-right-radius: 20px;
 }
 
-::-webkit-scrollbar-thumb {
+::-wegsit-scrollbar-thumb {
   /* box-shadow: 0px 0px 2px 0.5px #004d54; */
   background-color: #438e93;
   border-top-left-radius: 20px;
@@ -294,7 +300,7 @@ select option:hover {
   border-bottom-right-radius: 20px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-wegsit-scrollbar-thumb:hover {
   background-color: #c2c2c2;
 }
 

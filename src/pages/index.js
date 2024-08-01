@@ -2,6 +2,8 @@ import RootLayout from "@/component/Layouts/RootLayout";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import About from "@/component/UI/About/About";
+import InfoSection from "@/component/UI/InfoSection/InfoSection";
 
 const HomePage = () => {
   return (
@@ -30,6 +32,8 @@ const HomePage = () => {
             </motion.div>
           </div>
         </div>
+        <About></About>
+        <InfoSection></InfoSection>
       </div>
     </>
   );
