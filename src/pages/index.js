@@ -7,6 +7,7 @@ import InfoSection from "@/component/UI/InfoSection/InfoSection";
 import InfoSection2 from "@/component/UI/InfoSection2/InfoSection2";
 import About2 from "@/component/UI/About2/About2";
 import Explore from "@/component/UI/Explore/Explore";
+import Branch from "@/component/UI/Branch/Branch";
 
 const HomePage = () => {
   return (
@@ -40,6 +41,7 @@ const HomePage = () => {
         <InfoSection2></InfoSection2>
         <About2></About2>
         <Explore></Explore>
+        <Branch></Branch>
       </div>
     </>
   );
