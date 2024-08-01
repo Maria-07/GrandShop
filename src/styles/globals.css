@@ -29,7 +29,17 @@ body {
       rgba(0, 47, 128, 0.92)),
     url("../assets/img/infoSection.png");
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
+}
+
+.info-bg2 {
+  min-height: 100%;
+  background: linear-gradient(0deg,
+      rgba(0, 47, 128, 0.92),
+      rgba(0, 47, 128, 0.92)),
+    url("../assets/img/infoSection.png");
+  background-size: cover;
+  height: 70vh;
 }
 
 .input-border {

@@ -4,6 +4,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import About from "@/component/UI/About/About";
 import InfoSection from "@/component/UI/InfoSection/InfoSection";
+import InfoSection2 from "@/component/UI/InfoSection2/InfoSection2";
+import About2 from "@/component/UI/About2/About2";
 
 const HomePage = () => {
   return (
@@ -34,6 +36,8 @@ const HomePage = () => {
         </div>
         <About></About>
         <InfoSection></InfoSection>
+        <InfoSection2></InfoSection2>
+        <About2></About2>
       </div>
     </>
   );

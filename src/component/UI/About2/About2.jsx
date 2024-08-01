@@ -1,16 +1,16 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const InfoSection = () => {
+const About2 = () => {
   return (
     <div>
-      <div className="info-bg flex items-center justify-center">
-        <div>
-          {" "}
-          <div className="h-[90px] w-[90px] bg-white mx-auto my-7"></div>
-          <h1 className="text-center text-secondary text-3xl mb-5">
-            Title line h2
+      <div className="info-bg2 flex items-center justify-center">
+        <div className="">
+          <h1 className="text-center font-semibold uppercase text-secondary text-4xl mb-5 mt-16">
+            yellow title h2
           </h1>
+          <div className="h-[90px] w-[90px] bg-white mx-auto my-7"></div>
+          <h1 className="text-center text-white text-2xl mb-5">H3 Title</h1>
           <p className="mx-auto break-all text-white w-[80%] text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             interdum augue sed tellus accumsan, nec congue quam lacinia. Duis
@@ -23,7 +23,7 @@ const InfoSection = () => {
             vitae vulputate nisi, vitae eleifend enim. Aenean rutrum tristique
             purus,
           </p>
-          <div className="flex items-center justify-center my-5 text-lg">
+          <div className="flex items-center justify-center mt-5 mb-16 text-lg">
             <button className="flex items-center gap-2 text-white hover:text-secondary transition-all">
               Learn More
               <FaArrowRightLong />
@@ -35,4 +35,4 @@ const InfoSection = () => {
   );
 };
 
-export default InfoSection;
+export default About2;
