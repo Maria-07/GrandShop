@@ -13,16 +13,16 @@ const News = () => {
           <div className="p-5 sm:col-span-4">
             <div className="">
               <Image
-                className="rounded-t-xl"
+                className="rounded-t-xl w-full"
                 src={shop}
                 height={480}
                 alt="Picture of the author"
               />
-              <div className="flex items-center ">
-                <div className="bg-primary text-white text-sm p-5 align-middle text-center">
+              <div className="flex items-center">
+                <div className="bg-primary rounded-bl-xl text-white text-sm p-5 align-middle text-center">
                   Oct <span className="font-semibold text-xl">31</span>
                 </div>
-                <div className="bg-[#003FA9] text-white p-5 w-full">
+                <div className="bg-[#003FA9] rounded-br-xl text-white p-5 w-full ">
                   <h1 className="font-semibold text-xl">Lorem ipsum us </h1>
                   <h3 className="font-light text-sm">Oct 31, 2024</h3>
                 </div>

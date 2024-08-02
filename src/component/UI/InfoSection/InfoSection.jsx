@@ -5,9 +5,9 @@ const InfoSection = () => {
   return (
     <div>
       <div className="info-bg flex items-center justify-center">
-        <div>
+        <div className="">
           {" "}
-          <div className="h-[90px] w-[90px] bg-white mx-auto my-7"></div>
+          <div className="h-[90px]  w-[90px]  bg-white mx-auto mb-7"></div>
           <h1 className="text-center text-secondary text-3xl mb-5">
             Title line h2
           </h1>

@@ -6,8 +6,8 @@ import shop from "../../../../assets/img/hero-bg.png";
 const ExploreCard1 = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-3 my-5 pr-7">
-        <div className="p-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-3 my-5 md:pr-7">
+        <div className="md:p-20 p-3">
           <h1 className="text-3xl font-semibold mb-7 uppercase flex items-center gap-3">
             <RiBook2Line /> title h4
           </h1>
@@ -22,14 +22,14 @@ const ExploreCard1 = () => {
         </div>
         <div className="relative p-10">
           <Image
-            className="rounded-3xl"
+            className="rounded-3xl hidden lg:block"
             src={shop}
             width={600}
             height={700}
             alt="Picture of the author"
           />
           <div>
-            <div className="text-sm  font-semibold pt-9 pl-7 h-28 w-28 rounded-full bg-primary text-white absolute bottom-[16%] left-[-3%]">
+            <div className="text-sm hidden lg:block font-semibold pt-9 pl-7 h-28 w-28 rounded-full bg-primary text-white absolute bottom-[16%] left-[-3%]">
               <h1>Explore products</h1>
             </div>
           </div>

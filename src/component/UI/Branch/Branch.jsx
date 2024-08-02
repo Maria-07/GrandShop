@@ -46,7 +46,7 @@ const Branch = () => {
           ante. Nullam egestas, nunc at rutrum
         </p>
       </div>
-      <div className=" mt-28 mx-10 sm:px-5 ">
+      <div className=" mt-28 mx-10 sm:px-5 sm:overflow-hidden  overflow-x-scroll">
         <div>
           <Carroussel
             cards={cards}

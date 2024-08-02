@@ -5,9 +5,9 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className=" mx-auto">
-      <div className="my-20 px-10 relative">
-        <div className="p-[90px] w-[50%] border rounded-3xl absolute bg-white top-7 shadow-md">
-          <h1 className="text-5xl font-semibold mb-7">
+      <div className="my-20 md:px-10 px-2 relative">
+        <div className="md:p-[90px] p-5 md:w-[50%] w-[100%] border-[#D9D9D9] rounded-3xl md:absolute bg-white top-7 shadow-md">
+          <h1 className="md:text-5xl text-2xl font-semibold mb-7">
             About The Quick <br /> Shop this is H2
           </h1>
           <p className="font-medium text-lg text-[#2a2f349c] break-all">
@@ -23,7 +23,7 @@ const About = () => {
           </button>
         </div>
 
-        <div className="ml-[40%]">
+        <div className="ml-[40%] hidden lg:block">
           <Image
             className="rounded-3xl"
             src={shop}

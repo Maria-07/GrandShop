@@ -1,6 +1,16 @@
+import { Drawer } from "antd";
 import Link from "next/link";
+import { useState } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
   return (
     <div>
       {" "}
@@ -69,36 +79,96 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <div className="lg:hidden block">
-        <div className="flex items-center justify-between px-3 py-3">
-          <div>
-            <GiHamburgerMenu
-              size={24}
-              onClick={() => {
-                setOpen(!open);
-              }}
-            />
+      <div className="lg:hidden block">
+        <div className=" bg-[#000522] bg-opacity-70 p-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <Link href={"/"}>
+                <div className="h-[60px] w-[60px] bg-white border rounded-full"></div>
+              </Link>
+            </div>
+            <div>
+              <button onClick={showDrawer}>
+                <RxHamburgerMenu className="text-secondary text-4xl" />
+              </button>
+              <Drawer title="Grand Shop" onClose={onClose} open={open}>
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button>Section 1</button>
+                </Link>
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button>Section 2</button>
+                </Link>{" "}
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button>Section 3</button>
+                </Link>
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button> 2 Sub Divs</button>
+                </Link>{" "}
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button>Section 4</button>
+                </Link>
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button> two liner 1</button>
+                </Link>{" "}
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button> two liner 2</button>
+                </Link>
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button>Section 5</button>
+                </Link>{" "}
+                <br />
+                <br />
+                <Link
+                  className=" text-lg my-3 font-semibold text-primary py-2 border-b-[1px] w-full hover:text-black transition-all"
+                  href={"/"}
+                >
+                  <button> two liner 3</button>
+                </Link>
+                <br />
+                <br />
+              </Drawer>
+            </div>
           </div>
-          <div>
-            <Link href={"/"}>
-              {" "}
-              <Image
-                src={logo}
-                width={100}
-                height={100}
-                alt="Picture of the author"
-              />
-            </Link>
-          </div>
-          <button
-            onClick={() => setSearch(!search)}
-            className="bk-input-button "
-          >
-            Search
-          </button>
         </div>
-        <NavbarSmallDevice isOpen={open} setOpen={setOpen}></NavbarSmallDevice>
-      </div> */}
+      </div>
     </div>
   );
 };
