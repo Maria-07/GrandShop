@@ -8,6 +8,9 @@ import InfoSection2 from "@/component/UI/InfoSection2/InfoSection2";
 import About2 from "@/component/UI/About2/About2";
 import Explore from "@/component/UI/Explore/Explore";
 import Branch from "@/component/UI/Branch/Branch";
+import Blogs from "@/component/UI/Blogs/Blogs";
+import News from "@/component/UI/News/News";
+import CardShimmer from "@/component/UI/Shimmer/CardShimmer";
 
 const HomePage = () => {
   return (
@@ -42,6 +45,9 @@ const HomePage = () => {
         <About2></About2>
         <Explore></Explore>
         <Branch></Branch>
+        <Blogs></Blogs>
+        <News></News>
+        <CardShimmer></CardShimmer>
       </div>
     </>
   );

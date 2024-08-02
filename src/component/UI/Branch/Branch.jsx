@@ -34,7 +34,7 @@ const Branch = () => {
     },
   ];
   return (
-    <div className="">
+    <div className="mb-20">
       <div className="mt-20">
         <h1 className="text-3xl font-semibold mb-7 uppercase text-center">
           h2 title one liner
@@ -57,7 +57,7 @@ const Branch = () => {
           />
         </div>
       </div>
-      <div className="flex items-center justify-center my-14">
+      <div className="flex items-center justify-center mt-14 mb-20">
         <button className="gs-input-button ">See More</button>
       </div>
     </div>

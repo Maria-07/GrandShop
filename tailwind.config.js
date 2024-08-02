@@ -8,6 +8,9 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  animation: {
+    "spin-slow": "spin 3s linear infinite",
+  },
   theme: {
     extend: {
       colors: {
@@ -16,6 +19,7 @@ module.exports = {
         popover: "#003FA9",
         accent: "#212529",
         dark: "#3C4048",
+        gray: "#95969A",
       },
     },
   },

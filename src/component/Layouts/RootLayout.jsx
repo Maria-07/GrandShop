@@ -14,11 +14,11 @@ const RootLayout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="relative">
-        <div className="sticky top-0 z-50  bg-opacity-15 shadow-md ">
+        <div className="absolute top-0 z-50 w-full  bg-opacity-15 shadow-md ">
           <Navbar></Navbar>
         </div>
 
-        <div className="mt-[-110px]">{children}</div>
+        <div className="">{children}</div>
         <Footer></Footer>
       </div>
     </>
