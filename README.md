@@ -4,7 +4,7 @@ This project is a front-end implementation of a landing page based on a design p
 
 ### Live Demo
 
-# Check out the live version of the project: [GrandShop](grand-shop-gamma.vercel.app)
+# Check out the live version of the project: [https://grand-shop-gamma.vercel.app/](https://grand-shop-gamma.vercel.app/)
 
 ### GitHub Repository
 
