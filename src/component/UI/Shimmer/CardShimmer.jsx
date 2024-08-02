@@ -18,18 +18,18 @@ const CardShimmer = () => {
         {/*  shimmer columns */}
         <div className="flex items-center justify-center shimmer-gradient">
           {" "}
-          <div className="grid sm:grid-cols-4 grid-cols-1 gap-y-10 gap-5 mb-20">
-            <div className="w-[320px] h-[422px] md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-10 gap-5 mb-20">
+            <div className="w-[320px] h-[422px] lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px]  bg-[#A0A0A0]  rounded-[37px]"></div>
-            <div className="w-[320px] h-[422px]  md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+            <div className="w-[320px] h-[422px]  lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px] bg-[#A0A0A0]  rounded-[37px]"></div>
-            <div className="w-[320px] h-[422px] md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+            <div className="w-[320px] h-[422px] lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px]  bg-[#A0A0A0]  rounded-[37px]"></div>
-            <div className="w-[320px] h-[422px]  md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+            <div className="w-[320px] h-[422px]  lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px] bg-[#A0A0A0]  rounded-[37px]"></div>
-            <div className="w-[320px] h-[422px] md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+            <div className="w-[320px] h-[422px] lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px]  bg-[#A0A0A0]  rounded-[37px]"></div>
-            <div className="w-[320px] h-[422px]  md:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
+            <div className="w-[320px] h-[422px]  lg:mt-[-92px] bg-[#A0A0A0]  rounded-[37px]"></div>
             <div className="w-[320px] h-[422px] bg-[#A0A0A0]  rounded-[37px]"></div>
           </div>
         </div>

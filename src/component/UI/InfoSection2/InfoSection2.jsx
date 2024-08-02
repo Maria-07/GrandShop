@@ -6,7 +6,7 @@ const InfoSection2 = () => {
   return (
     <div>
       <div className="flex items-center justify-center p-2">
-        <div className="md:mt-28 mt-10 mb-[20%] relative">
+        <div className="lg:mt-28 mt-10 mb-[20%] relative">
           <Image
             className="rounded-[30px] hidden lg:block"
             src={shop}
@@ -15,7 +15,7 @@ const InfoSection2 = () => {
             alt="Picture of the author"
           />
           <div>
-            <div className=" md:p-[50px] p-5  md:w-[48%] w-[100%] border-[1px] border-[#D9D9D9] rounded-[30px] lg:absolute  bg-white top-[-60px] right-[2%] shadow-md">
+            <div className=" lg:p-[50px] p-5  lg:w-[48%] w-[100%] border-[1px] border-[#D9D9D9] rounded-[30px] lg:absolute  bg-white top-[-60px] right-[2%] shadow-md">
               <h1 className="text-3xl font-semibold mb-7 uppercase">
                 Title of the section <br /> text h2
               </h1>
@@ -35,7 +35,7 @@ const InfoSection2 = () => {
             </div>
           </div>
           <div>
-            <div className="md:p-[50px] p-5  md:w-[48%] w-[100%] md:my-0 my-5 border-[1px] border-[#D9D9D9] rounded-[30px] lg:absolute  bg-white left-[2%] bottom-[-25%]  shadow-md">
+            <div className="lg:p-[50px] p-5  lg:w-[48%] w-[100%] lg:my-0 my-5 border-[1px] border-[#D9D9D9] rounded-[30px] lg:absolute  bg-white left-[2%] bottom-[-25%]  shadow-md">
               <h1 className="text-3xl font-semibold mb-7 uppercase">
                 Title of the section <br /> text h2
               </h1>

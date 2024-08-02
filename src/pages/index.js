@@ -24,7 +24,7 @@ const HomePage = () => {
               transition={{ delay: 0.4 }}
               className="text-4xl font-bold font-primary text-white mt-[10%] opacity-100"
             >
-              <div className="md:p-0 p-1">
+              <div className="lg:p-0 p-1">
                 <div className="h-[90px] w-[90px] bg-white mx-auto mb-7"></div>
                 <h1 className="text-secondary text-center  text-[48px] font-[800px]">
                   Welcome to Grand Shop
